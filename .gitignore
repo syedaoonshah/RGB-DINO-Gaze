@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# PyTorch model files
+*.pth
+*.pt
+
+# Preprocessed datasets (regenerate with preprocess_mpiigaze.py)
+preprocessed_mpiigaze/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Training outputs
+models/
+checkpoints/
+reconstructions/
+gaze_visualizations/
+
+# Logs
+*.log
+wandb/
+tensorboard_logs/
+
+# Data
+data/
+datasets/
+*.h5
+*.hdf5
+
+# Temporary files
+*.tmp
+temp/

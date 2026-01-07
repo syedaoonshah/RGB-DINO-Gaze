@@ -36,6 +36,19 @@ RGB-DINO-Gaze is a novel gaze estimation framework that leverages self-supervise
 - 5-step inner loop for rapid personalization
 - Residual connections for stable gradients
 
+### Sample Visualizations
+
+Below are five sample outputs from `gaze_visualizations/`:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="gaze_visualizations/sample1.png" alt="Gaze Visualization 01" style="width: 18%;" />
+  <img src="gaze_visualizations/sample2.png" alt="Gaze Visualization 02" style="width: 18%;" />
+  <img src="gaze_visualizations/sample3.png" alt="Gaze Visualization 03" style="width: 18%;" />
+  <img src="gaze_visualizations/sample4.png" alt="Gaze Visualization 04" style="width: 18%;" />
+  <img src="gaze_visualizations/sample5.png" alt="Gaze Visualization 05" style="width: 18%;" />
+</div>
+
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -131,20 +144,7 @@ python visualize_gaze.py
 ```
 Generates gaze prediction visualizations with error heatmaps.
 
-### Sample Visualizations
 
-Below are five sample outputs from `gaze_visualizations/`:
-
-<p align="center">
-  <img src="gaze_visualizations/sample_01.svg" alt="Gaze Visualization 01" width="45%" />
-  <img src="gaze_visualizations/sample_02.svg" alt="Gaze Visualization 02" width="45%" />
-  <br/>
-  <img src="gaze_visualizations/sample_03.svg" alt="Gaze Visualization 03" width="45%" />
-  <img src="gaze_visualizations/sample_04.svg" alt="Gaze Visualization 04" width="45%" />
-  <br/>
-  <img src="gaze_visualizations/sample_05.svg" alt="Gaze Visualization 05" width="92%" />
-  
-</p>
 
 ### Multi-Dataset Evaluation
 ```bash

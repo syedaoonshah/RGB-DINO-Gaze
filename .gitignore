@@ -56,7 +56,7 @@ Thumbs.db
 models/
 checkpoints/
 reconstructions/
-gaze_visualizations/
+
 
 # Logs
 *.log

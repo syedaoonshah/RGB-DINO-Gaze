@@ -131,6 +131,21 @@ python visualize_gaze.py
 ```
 Generates gaze prediction visualizations with error heatmaps.
 
+### Sample Visualizations
+
+Below are five sample outputs from `gaze_visualizations/`:
+
+<p align="center">
+  <img src="gaze_visualizations/sample_01.svg" alt="Gaze Visualization 01" width="45%" />
+  <img src="gaze_visualizations/sample_02.svg" alt="Gaze Visualization 02" width="45%" />
+  <br/>
+  <img src="gaze_visualizations/sample_03.svg" alt="Gaze Visualization 03" width="45%" />
+  <img src="gaze_visualizations/sample_04.svg" alt="Gaze Visualization 04" width="45%" />
+  <br/>
+  <img src="gaze_visualizations/sample_05.svg" alt="Gaze Visualization 05" width="92%" />
+  
+</p>
+
 ### Multi-Dataset Evaluation
 ```bash
 python multi_dataset_evaluation.py
